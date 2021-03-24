@@ -1,0 +1,21 @@
+body{border: 1px red solid;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    }
+    .container{
+        flex-wrap: wrap;
+        flex-direction: row;
+        border: 1px solid red;
+        width: 500px;
+        margin: auto auto auto auto;
+        display: flex;
+    }
+    .container >div>img{
+        height: 100%;
+        width: 100%;
+    }
+    .container >div{
+        width: 150px;
+        height: 150px;
+    }
